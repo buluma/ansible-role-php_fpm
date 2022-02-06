@@ -4,7 +4,7 @@ The purpose of this role is to install and configure php_fpm on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-php_fpm/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-php_fpm/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-php_fpm/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-php_fpm)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/php_fpm)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/php_fpm)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-php_fpm.svg)](https://github.com/buluma/ansible-role-php_fpm/releases/)|
+|[![github](https://github.com/buluma/ansible-role-php_fpm/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-php_fpm/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-php_fpm/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-php_fpm)|[![quality](https://img.shields.io/ansible/quality/57956)](https://galaxy.ansible.com/buluma/php_fpm)|[![downloads](https://img.shields.io/ansible/role/d/57956)](https://galaxy.ansible.com/buluma/php_fpm)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-php_fpm.svg)](https://github.com/buluma/ansible-role-php_fpm/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
