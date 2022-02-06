@@ -37,10 +37,8 @@ jobs:
         config:
           - image: "enterpriselinux"
             tag: "latest"
-          - image: "debian-systemd"
+          - image: "debian-systemd"   # TODO: bookworm build
             tag: "latest"
-          - image: "debian-systemd"
-            tag: "bookworm"
           - image: "fedora-systemd"
             tag: "34"
           - image: "fedora-systemd"
