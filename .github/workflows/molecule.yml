@@ -14,7 +14,6 @@ on:
   pull_request:
   schedule:
     - cron: '31 16 16 * *'
-  workflow_dispatch:
 
 jobs:
   lint:
@@ -38,8 +37,10 @@ jobs:
         config:
           - image: "enterpriselinux"
             tag: "latest"
-          - image: "debian-systemd"   # TODO: bookworm build
+          - image: "debian-systemd"
             tag: "latest"
+          - image: "debian-systemd"
+            tag: "bookworm"
           - image: "fedora-systemd"
             tag: "34"
           - image: "fedora-systemd"
