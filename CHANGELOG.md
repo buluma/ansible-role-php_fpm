@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-php_fpm/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-php_fpm/compare/1.0.3...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#11](https://github.com/buluma/ansible-role-php_fpm/issues/11)
+
 ## [1.0.3](https://github.com/buluma/ansible-role-php_fpm/tree/1.0.3) (2022-03-03)
 
 [Full Changelog](https://github.com/buluma/ansible-role-php_fpm/compare/1.0.2...1.0.3)
