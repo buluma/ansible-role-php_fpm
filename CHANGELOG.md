@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-php_fpm/tree/HEAD)
+## [1.1.0](https://github.com/buluma/ansible-role-php_fpm/tree/1.1.0) (2024-01-28)
 
-[Full Changelog](https://github.com/buluma/ansible-role-php_fpm/compare/1.0.3...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-php_fpm/compare/1.0.3...1.1.0)
 
 **Closed issues:**
 
