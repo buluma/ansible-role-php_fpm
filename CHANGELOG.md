@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-php_fpm/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-php_fpm/compare/1.1.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump release-drafter/release-drafter from 5 to 6 [\#13](https://github.com/buluma/ansible-role-php_fpm/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [1.1.0](https://github.com/buluma/ansible-role-php_fpm/tree/1.1.0) (2024-01-28)
 
 [Full Changelog](https://github.com/buluma/ansible-role-php_fpm/compare/1.0.3...1.1.0)
