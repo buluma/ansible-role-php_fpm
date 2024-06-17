@@ -6,8 +6,10 @@
 
 **Merged pull requests:**
 
+- Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.4 [\#19](https://github.com/buluma/ansible-role-php_fpm/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.3 to 2.1.4 [\#18](https://github.com/buluma/ansible-role-php_fpm/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.3 [\#17](https://github.com/buluma/ansible-role-php_fpm/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 6.0.3 to 24.2.0 [\#14](https://github.com/buluma/ansible-role-php_fpm/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.3.31](https://github.com/buluma/ansible-role-php_fpm/tree/24.3.31) (2024-03-26)
 
@@ -17,7 +19,6 @@
 
 - Bump dependabot/fetch-metadata from 1 to 2 [\#16](https://github.com/buluma/ansible-role-php_fpm/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#15](https://github.com/buluma/ansible-role-php_fpm/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump buluma/molecule-action from 6.0.3 to 24.2.0 [\#14](https://github.com/buluma/ansible-role-php_fpm/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#13](https://github.com/buluma/ansible-role-php_fpm/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.1.0](https://github.com/buluma/ansible-role-php_fpm/tree/1.1.0) (2024-01-28)
