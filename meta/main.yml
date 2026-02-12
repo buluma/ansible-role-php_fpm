@@ -1,29 +1,25 @@
----
 galaxy_info:
   author: buluma
   role_name: php_fpm
-  description: The purpose of this role is to install and configure php_fpm on your system.
+  description: The purpose of this role is to install and configure php_fpm on your
+    system.
   license: Apache-2.0
   company: ShadowNet
-  min_ansible_version: "2.12"
-
+  min_ansible_version: '2.12'
   platforms:
-    - name: Debian
-      versions:
-        - jessie
-        - stretch
-    - name: Fedora
-      versions:
-        - all
-    - name: opensuse
-      versions:
-        - all
-    - name: Ubuntu
-      versions:
-        - bionic
-
+  - name: Debian
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  - name: opensuse
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
   galaxy_tags:
-    - phpfpm
-    - fpm
-
+  - phpfpm
+  - fpm
 dependencies: []
