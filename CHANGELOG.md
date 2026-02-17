@@ -4,6 +4,11 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-php_fpm/compare/24.3.31...HEAD)
 
+**Closed issues:**
+
+- Update action [\#10](https://github.com/buluma/ansible-role-php_fpm/issues/10)
+- rebuild action [\#9](https://github.com/buluma/ansible-role-php_fpm/issues/9)
+
 **Merged pull requests:**
 
 - Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.4 [\#19](https://github.com/buluma/ansible-role-php_fpm/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
