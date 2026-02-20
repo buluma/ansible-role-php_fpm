@@ -25,7 +25,8 @@ _php_fpm_directory:
   Ubuntu-19: /etc/php/7.2/fpm
   Ubuntu: /etc/php/7.4/fpm
 
-php_fpm_directory: "{{ _php_fpm_directory[ansible_distribution ~ '-' ~ ansible_distribution_major_version] | default(_php_fpm_directory[ansible_distribution] | default(_php_fpm_directory['default'] )) }}"
+php_fpm_directory: "{{ _php_fpm_directory[ansible_distribution ~ '-' ~ ansible_distribution_major_version] | default(_php_fpm_directory[ansible_distribution] | default(_php_fpm_directory['default']
+  )) }}"
 
 _php_fpm_pid_directory:
   default: /run/php-fpm
@@ -65,7 +66,8 @@ _php_fpm_service:
   Ubuntu-19: php7.2-fpm.service
   Ubuntu: php7.4-fpm.service
 
-php_fpm_service: "{{ _php_fpm_service[ansible_distribution ~ '-' ~ ansible_distribution_major_version] | default(_php_fpm_service[ansible_distribution] | default(_php_fpm_service['default'] )) }}"
+php_fpm_service: "{{ _php_fpm_service[ansible_distribution ~ '-' ~ ansible_distribution_major_version] | default(_php_fpm_service[ansible_distribution] | default(_php_fpm_service['default']
+  )) }}"
 
 _php_fpm_owner:
   default: apache

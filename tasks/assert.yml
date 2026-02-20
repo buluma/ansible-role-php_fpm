@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test if php_fpm_listen is set correctly
   ansible.builtin.assert:
     that:
