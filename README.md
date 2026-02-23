@@ -12,34 +12,34 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-  - name: Converge
-    hosts: all
-    become: true
-    gather_facts: true
+- name: Converge
+  hosts: all
+  become: true
+  gather_facts: true
 
-    roles:
-      - role: buluma.php_fpm
+  roles:
+  - role: buluma.php_fpm
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-php_fpm/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-  - name: Prepare
-    hosts: all
-    gather_facts: false
-    become: true
+- name: Prepare
+  hosts: all
+  gather_facts: false
+  become: true
 
-    roles:
-      - role: buluma.bootstrap
-      - role: buluma.epel
-      - role: buluma.buildtools
-      - role: buluma.python_pip
-      - role: buluma.openssl
-        openssl_items:
-          - name: apache-httpd
-            common_name: "{{ ansible_fqdn }}"
-      - role: buluma.httpd
+  roles:
+  - role: buluma.bootstrap
+  - role: buluma.epel
+  - role: buluma.buildtools
+  - role: buluma.python_pip
+  - role: buluma.openssl
+    openssl_items:
+    - name: apache-httpd
+      common_name: "{{ ansible_fqdn }}"
+  - role: buluma.httpd
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
