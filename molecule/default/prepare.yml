@@ -1,8 +1,15 @@
 ---
 - name: Prepare
   hosts: all
-  gather_facts: false
   become: true
+  gather_facts: false
+
+  pre_tasks:
+    - name: Install sudo if missing
+      ansible.builtin.raw: "{{ ansible_pkg_mgr | default('dnf') }} install -y sudo}"
+      become: false
+      changed_when: false
+      failed_when: false
 
   roles:
     - role: buluma.bootstrap
@@ -10,7 +17,4 @@
     - role: buluma.buildtools
     - role: buluma.python_pip
     - role: buluma.openssl
-      openssl_items:
-        - name: apache-httpd
-          common_name: "{{ ansible_facts['fqdn'] }}"
     - role: buluma.httpd
