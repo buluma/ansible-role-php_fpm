@@ -1,5 +1,9 @@
 # Changelog
 
+## [26.7.0](https://github.com/buluma/ansible-role-php_fpm/tree/26.7.0) (2026-07-24)
+
+[Full Changelog](https://github.com/buluma/ansible-role-php_fpm/compare/26.6.0...26.7.0)
+
 ## [26.6.0](https://github.com/buluma/ansible-role-php_fpm/tree/26.6.0) (2026-06-14)
 
 [Full Changelog](https://github.com/buluma/ansible-role-php_fpm/compare/24.3.31...26.6.0)
